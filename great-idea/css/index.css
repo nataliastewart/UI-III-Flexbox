@@ -162,28 +162,21 @@ h1, h2, h3, h4, h5 {
 	display:flex;
 	justify-content: space-between;
 	flex-direction: row;
+
+	
 	
 }
-
 
 .intro{
     font-size:30px;
 	width: 20%;
-	background-color: white;
-	text-align: center;
-	width: 130px;
-	display:flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
+	
+	
 }
-
-
-
-
 
 .pic1{
 	width:20%;
+	
 	
 }
 
@@ -192,10 +185,12 @@ text-align:center;
 padding-bottom:2%;
 display:flex;
 flex-direction: row;
+
 }
 
-.features{
-	
+
+.features {
+	display:
 	width:45%;
 }
 
@@ -213,7 +208,8 @@ flex-direction: row;
 .bottom{
 	text-align:center;
 	padding-bottom:3%;
-	
+	display:flex;
+	flex-direction: row;
 }
 
 .services{
