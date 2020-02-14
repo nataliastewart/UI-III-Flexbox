@@ -133,49 +133,57 @@ h1, h2, h3, h4, h5 {
 
 
 
-nav-bar a{
+.nav-bar {
 	display:flex;
 	text-decoration:none;
 	color:darkgray;
-	justify-content:space-around;
-	flex-direction: row;
+	justify-content:space-evenly;
+	
 }
 
-.logo{
-	widht:20%;
-	
-	padding:1%;
+
+
+.nav-bar a{
+	color:grey;
+	text-decoration:none;
 	
 }
+
+
 .conteiner{
 	width:900px;
+	margin: auto;
+
+}
+
+
+
+.main-title{
+	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
 	
 }
 
-.maintitle{
-	
-	
-	padding:8em;
-	
-	
-}
 
 .intro{
     font-size:30px;
 	width: 20%;
-	
-	
+	background-color: white;
+	text-align: center;
+	width: 130px;
+	margin:15px;
 }
 
 .pic1{
 	width:20%;
-	
 	
 }
 
 .top{
 text-align:center;
 padding-bottom:2%
+
 }
 
 .features{
