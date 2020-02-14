@@ -175,9 +175,9 @@ h1, h2, h3, h4, h5 {
 	display:flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: space-around;
 }
 
-git 
 
 
 
@@ -189,8 +189,9 @@ git
 
 .top{
 text-align:center;
-padding-bottom:2%
-
+padding-bottom:2%;
+display:flex;
+flex-direction: row;
 }
 
 .features{
@@ -212,6 +213,7 @@ padding-bottom:2%
 .bottom{
 	text-align:center;
 	padding-bottom:3%;
+	
 }
 
 .services{
